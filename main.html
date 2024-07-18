@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Urus на прокат</title>
+</head>
+<body>
+    <header id="section1" class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="https://lamborghinimontreal.com/en" class="logo">
+                    <img src="./img/icons/logo.svg" alt="" class="logo__img">
+                </a>
+                <div class="menu">
+                    <button class="menu__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header__content">
+                <h1 class="title">Urus</h1>
+                <img src="./img/pictures/urus-hero.png" alt="" class="urus-hero">
+                <h2 class="subtitle">на прокат</h2>
+            </div>
+        </div>
+    </header>
+    
+    <section class="info">
+        <div class="container">
+            <h2 class="info__title">Lamborghini Urus</h2>
+            <img src="./img/pictures/urus-info.png" alt="" class="info__img">
+            <div class="info__content">
+                <dl class="info__list">
+                    <div class="info__list-item">
+                        <dt>Класс: </dt>
+                        <dd>Внедорожники</dd>
+                    </div>
+                    <div class="info__list-item">
+                        <dt>Мощность двигателя: </dt>
+                        <dd>650 л.c.</dd>
+                    </div>
+                    <div class="info__list-item">
+                        <dt>Объем двигателя: </dt>
+                        <dd>4.0 литра турбо</dd>
+                    </div>
+                    <div class="info__list-item">
+                        <dt>Разгон 0-100: </dt>
+                        <dd>3.6 секунды</dd>
+                    </div>
+                    <div class="info__list-item">
+                        <dt>Привод: </dt>
+                        <dd>полный</dd>
+                    </div>
+                    <div class="info__list-item">
+                        <dt>Количество мест: </dt>
+                        <dd>5</dd>
+                    </div>
+                    <div class="info__list-item">
+                        <dt>Минимальный срок аренды: </dt>
+                        <dd>1 сутки</dd>
+                    </div>
+                </dl>
+                <div class="order-box">
+                    <p class="price"><span class="span__price">740 $</span>/ сутки</p>
+                    <a href="#section2" class="order">ЗАБРОНИРОВАТЬ</a>
+                </div>
+            </div>
+            <div class="info__gallery">
+                <img src="./img/pictures/info-box/info-pictures-1.jpg" alt="" class="info__gallery-item">
+                <img src="./img/pictures/info-box/info-pictures-2.jpg" alt="" class="info__gallery-item">
+                <img src="./img/pictures/info-box/info-pictures-3.jpg" alt="" class="info__gallery-item">
+
+            </div>
+        </div>
+    </section>
+
+    <div class="chosen-color">
+        <p class="color__text">Выбери цвет</p>
+        <div class="chosen-color__gallery">
+            <img src="./img/pictures/gallery-box/gallery-start.jpg" alt="" class="chosen-color__gallery-start">
+            <div class="chosen-color__gallery-box">
+                <div class="gallery-item">
+                    <img src="./img/pictures/gallery-box/urus-orange.png" alt="">
+                    <p class="gallery-box-text">Orange</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pictures/gallery-box/urus-yellow.png" alt="">
+                    <p class="gallery-box-text">Yellow</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pictures/gallery-box/urus-white.png" alt="">
+                    <p class="gallery-box-text">White</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/pictures/gallery-box/urus-black.png" alt="">
+                    <p class="gallery-box-text">Black</p>
+                </div>
+            </div>
+            <img src="./img/pictures/gallery-box/gallery-end.jpg" alt="" class="chosen-color__gallery-end">
+        </div>
+    </div>
+    <section class="contacts">
+        <div class="container">
+            <h2 class="contacts__title">Забронировать автомобиль Lamborghini Urus</h2>
+            <div class="contacts__box">
+                <div class="contacts__box-info">
+                    <p class="contacts__headtext">Обязательный страховой взнос: 2000$</p>
+                    <p class="contacts__headtext">личный водитель: по запросу</p>
+                    <p class="contacts__text">Мы свяжемся c вами в течение часа для уточнения деталей. Либо <br> забронируйте автомобиль по номеру:</p>
+                    <a class="phone" href="tel:999-99-99">999-99-99</a>
+                    <p class="contacts__text-rules" ><a href="https://lamborghinimontreal.com/en/privacy-policy">Нажимая кнопку «Подтвердить бронь» вы соглашаетесь с условиями обработки данных</a></p>
+                </div>
+                <form id="section2" action="" class="contacts__box-form form">
+                    <input class="form__input" type="text"  placeholder="Ваше имя">
+                    <input class="form__input" type="text"  placeholder="Номер телефона">
+                    <input class="form__input" type="text"  placeholder="город">
+                    <p class="contacts__price"> <span class="span__price">740 $</span> / сутки</p>
+                    <button  class="order form__order" type="submit">ЗАБРОНИРОВАТЬ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="#section1" class="footer__link">Arseniy Morphine</a>
+    </footer>
+</body>
+</html>
